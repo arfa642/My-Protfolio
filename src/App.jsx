@@ -1,17 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import ForwardRefParent from "./PD 5/ForwardRefParent";
+import HandleSubmit from "./PD 5/HandleSubmit";
+import PassingFunctionParent from "./PD 5/PassingFunctionParent";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const react = 'React  '
   return (
-    <>
-      <p>Jiay bhutto</p>
-      <p>hemloooo g</p>
-    </>
-  )
+    <div style={{ marginLeft: '50px' }}>
+      <span style={{ fontSize: '80px' }}> {react}  </span>
+      <hr />
+
+   <HandleSubmit /> 
+
+    </div>
+  );
 }
 
-export default App
+export default App;

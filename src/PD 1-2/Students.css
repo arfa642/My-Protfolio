@@ -1,0 +1,12 @@
+.next-btn {
+  padding: 10px 18px;
+background-color: chartreuse;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
