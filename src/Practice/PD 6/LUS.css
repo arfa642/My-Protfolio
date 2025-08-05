@@ -1,0 +1,55 @@
+.liftup-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #232526, #414345);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #00c6ff;
+}
+
+.input-wrapper {
+  margin-bottom: 25px;
+}
+
+.user-input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  background: #f1f1f1;
+  color: #333;
+  transition: box-shadow 0.2s ease;
+}
+
+.user-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 198, 255, 0.3);
+}
+
+.display-wrapper {
+  margin-top: 20px;
+}
+
+.divider {
+  border: none;
+  height: 2px;
+  background: #00c6ff;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.display-username {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+}
