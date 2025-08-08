@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router';
 
 
 
+
 const UserData = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -45,6 +46,7 @@ const UserData = () => {
 
   const edit = (id) => {
     navigate("/edit/"+id)
+    getResponse();
   }
 
   useEffect(() => {
