@@ -7,7 +7,7 @@ const DummyAPI = () => {
   useEffect(() => {
     newUserData()
   }, [])
-
+DummyAPI
 
   async function newUserData() {
     let response = await fetch('https://dummyjson.com/users')
