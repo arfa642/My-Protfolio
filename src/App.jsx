@@ -1,10 +1,6 @@
 import React from "react";
-import DummyAPI from "./PD 10/API/DummyAPI";
 import UserAPI from "./PD 10/API/UserAPI";
-import UserData from "./PD 10/API/UserData";
-import TailwindTest from "./PD 10/Tailwind/TailwindTest";
-import TTM from "./PD 10/Tailwind/TTM";
-import RouterComponent from "./Practice/PD 8-9/Router/RouterComponent";
+
 
 function App() {
   return (

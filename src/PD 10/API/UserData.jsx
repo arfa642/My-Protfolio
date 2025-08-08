@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './API_INTEGRATION.css';
 import Button from 'react-bootstrap/esm/Button';
+import { useNavigate } from 'react-router';
 
 
 
@@ -40,6 +41,12 @@ const UserData = () => {
     getUserData();
   }
 
+  const navigate = useNavigate();
+
+  const edit = (id) => {
+    navigate("/edit/"+id)
+  }
+
   useEffect(() => {
     console.log('Fetched Users:', data);
   }, []);
@@ -66,7 +73,8 @@ return (
                 <td>{user.name}</td>
                 <td>{user.age}</td>
                 <td>{user.email}</td>
-                <td> <Button onClick={() => deleteUser(user.id)} >Delete</Button> </td>
+                <td> <Button style={{marginRight:'25px'}}  onClick={() => deleteUser(user.id)} >Delete</Button> 
+                <Button onClick={() => edit(user.id)} >Edit</Button> </td>
               </tr>
             ))}
           </tbody>

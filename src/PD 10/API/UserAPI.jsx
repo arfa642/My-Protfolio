@@ -3,8 +3,10 @@ import UserData from './UserData';
 import AddUser from './AddUser';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import './API_INTEGRATION.css';
+import EditUser from './EditUser';
 
 const UserAPI = () => {
+
   return (
     <div>
       <div style={{ backgroundColor: '#f2f2f2', padding: '15px' }} >
@@ -24,6 +26,7 @@ const UserAPI = () => {
       <Routes>
         <Route path='/' element={<UserData />} />
         <Route path='/add' element={<AddUser />} />
+        <Route path='/edit/:id' element={<EditUser />} />
       </Routes>
     </div>
   );
