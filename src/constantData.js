@@ -41,7 +41,9 @@ import react from '../pics/react.ico';
 import vercel from '../pics/vercel.png'
 import git from '../pics/git.png'
 import vsCode from '../pics/vsCode.png'
-import Emailjs from '../pics/EmailJS.jpg'
+import emailJSImg from "../pics/EmailJs.jpg";
+
+
 
 
 
@@ -83,7 +85,8 @@ export const skillsInfo = [
       { name: 'Git Hub', logo: github },
       { name: 'Vercel', logo: vercel },
        { name: 'Scratch', logo: scratch },
-       { name: 'Email JS', logo: Emailjs },
+       { name: 'Email JS', logo:  emailJSImg
+ },
     ]
   }
 ];
