@@ -1,12 +1,17 @@
 import React from 'react'
 import { skillsInfo } from '../constantData'
+import Tilt from 'react-parallax-tilt'
 
 const Skills = () => {
   return (
     <section
       id='skills'
-      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom
-      linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)"
+      className="py-24 pb-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-skills-gradient clip-path-custom"
+      style={{
+        background: `linear-gradient(38.73deg, rgba(204, 0, 187, 0.15) 0%, rgba(201, 32, 184, 0) 50%), 
+                 linear-gradient(141.27deg, rgba(0, 70, 209, 0) 50%, rgba(0, 70, 209, 0.15) 100%)`
+      }}
+
     >
 
       <div className='text-center mb-8 ' >
@@ -25,24 +30,41 @@ const Skills = () => {
           shadow-[0_0_20px_1px_rgba(130,69,236,0.3)]">
               <h3 className="text-2xl sm:text-3xl font-semibold text-white mb-4 text-center">
                 {category.title}</h3>
-              <div className='grid grid-cols-2 sm:grid-cols-3 gap-3 w-full' >
-                {
-                  category.skills.map((skill) => (
+              <Tilt
+                
+                tiltMaxAngleX={20}
+                tiltMaxAngleY={20}
+                perspective={1000}
+                scale={1.05}
+                transitionSpeed={1000}
+                gyroscope={true}
+              >
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 w-full">
+                  {category.skills.map((skill) => (
                     <div
-                    key={skill.name}
-                    className='flex items-center justify-center space-x-2  bg-transparent border-2  border-gray-700 rounded-3xl py-2 px-2 text-center ' >
-                      <img src={skill.logo} alt="" className='w-6 h-6 sm:w-8 sm:h-8' />
-                      <span className='text-gray-300 text-xs sm:text-sm' >{skill.name}</span>
+                      key={skill.name}
+                      className="flex items-center justify-center space-x-2 bg-transparent border-2 border-gray-700 
+                 rounded-3xl py-3 px-4 w-full h-auto"
+                    >
+                      <img
+                        src={skill.logo}
+                        alt={skill.name}
+                        className="w-6 h-6 sm:w-8 sm:h-8 object-contain shrink-0"
+                      />
+                      <span className="text-gray-300 text-xs sm:text-sm whitespace-normal break-words text-center">
+                        {skill.name}
+                      </span>
                     </div>
-                  ))
-                }
-
-              </div>
-
-
-
+                  ))}
                 </div>
-            
+              </Tilt>
+
+
+
+
+
+            </div>
+
 
 
 

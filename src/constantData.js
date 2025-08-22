@@ -1,8 +1,9 @@
 import myPicCircle from '../pics/myPicCircle.png';
 import myLogo from '../pics/myLogo.png';
-import bss from '../pics/bss.png';
-import pgc from '../pics/pgc.png';
-import gcu from '../pics/gcu.jpeg';
+
+import bss from '../pics/bss2.png';
+import pgc from '../pics/pgc2.png';
+import gcu from '../pics/gcu2.png';
 
 import linkedin from '../pics/linkedin.png';
 import github from '../pics/github.png';
@@ -14,8 +15,8 @@ import AG from '../pics/AG.jpg';
 import mc from '../pics/mc.jpg';
 import amazon from '../pics/amazon.jpg';
 import toDo from '../pics/toDo.jpg';
-import calculator from '../pics/calculator.jpg';
-import rps from '../pics/rps.jpg';
+import calculator from '../pics/calculator.png';
+import rps from '../pics/rps.png';
 import fb from '../pics/fb.jpg';
 import yt from '../pics/yt.jpg';
 import userManagementSystem from '../pics/userManagementSystem.png';
@@ -23,10 +24,12 @@ import colorMixer from '../pics/colorMixer.png';
 
 import corel from '../pics/corel0.png';
 import logoMaker from '../pics/logoMaker.png';
+import canva from '../pics/canva.png'
 
 import cpp from '../pics/cpp.png';
 import c from '../pics/c.png'
 import python from '../pics/python.png';
+import scratch from '../pics/scratch.png'
 
 import html from '../pics/html.png';
 import css from '../pics/css.png';
@@ -38,6 +41,7 @@ import react from '../pics/react.ico';
 import vercel from '../pics/vercel.png'
 import git from '../pics/git.png'
 import vsCode from '../pics/vsCode.png'
+import Emailjs from '../pics/EmailJS.jpg'
 
 
 
@@ -57,15 +61,18 @@ export const skillsInfo = [
     title: 'Programming',
     skills: [
       { name: 'C++', logo: cpp },
+       { name: 'JavaScript', logo: js },
       { name: 'C', logo: c },
-      { name: 'python', logo: python }
+      { name: 'python', logo: python },
+      { name: 'Scratch', logo: scratch }
     ]
   },
   {
     title: 'Graphic Design',
     skills: [
       { name: 'CorelDraw', logo: corel },
-      { name: 'logoMaker', logo: logoMaker }
+      { name: 'logoMaker', logo: logoMaker },
+      { name: 'Canva', logo: canva },
     ]
   },
   {
@@ -74,7 +81,9 @@ export const skillsInfo = [
       { name: 'VS Code', logo: vsCode },
       { name: 'git', logo: git },
       { name: 'Git Hub', logo: github },
-      { name: 'Vercel', logo: vercel }
+      { name: 'Vercel', logo: vercel },
+       { name: 'Scratch', logo: scratch },
+       { name: 'Email JS', logo: Emailjs },
     ]
   }
 ];
@@ -84,7 +93,7 @@ export const experiences = [
   {
     id: 0,
     img: Axcenders,
-    role: 'Co-founder & Senior Frontend Developer',
+    role: 'Co-founder ',
     company: 'Axcend',
     date: 'June 2025 - Present',
     desc: 'I co-founded Axcend, a modern web development startup, alongside two other passionate developers. As the Frontend Developer, I focus on building fast, responsive, and visually engaging web applications using the latest technologies. Along with coding, I also contribute to product design ideas, client collaboration, and shaping the startup’s growth journey.',
@@ -124,7 +133,6 @@ export const experiences = [
     skills: [
       'LogoMaker',
       'CorelDraw',
-      'Adobe Creative Suite',
       'Graphic Design',
       'Brand Identity',
       'Packaging Design',
@@ -143,7 +151,7 @@ export const education = [
     date: "Sept 2024 - Present",
     grade: "3.3 CGPA",
     desc: "I am Currently doing my Bachelor's degree (BSCS) in Computer Science from GC University, Lahore. During my time at GCU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as, Applications of Information Technology, Programming Fundamentals ,Object-Oriented Programming and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GC University has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Bachelor's of Computer Science - BSCS",
+    degree: "Bachelor's of Computer Science",
   },
   {
     id: 1,
@@ -152,7 +160,7 @@ export const education = [
     date: "Sept 2022 - May 2024",
     grade: "78%",
     desc: "I completed Intermediate in Computer Science from Punjab Group of Colleges, Lahore, under the BISE board, where I studied Statistics, Mathematics and Computer Science.",
-    degree: "BISE(XII) - ICS with Computer Science",
+    degree: "Intermediate in Computer Science",
   },
   {
     id: 2,
@@ -160,15 +168,15 @@ export const education = [
     school: "Beaconhouse School System",
     date: "Aug 2009 - May 2022",
     grade: "83%",
-    desc: "I completed my class 10 education from Beaconhouse School System under the BISE board, where I studied Science with Computer.",
-    degree: "BISE(X), Science with Computer Group",
+    desc: "I completed my class 10 education from Beaconhouse School System under the BISE board, where I studied Physics Chemistry Mathematics and Computer Science where i built multiple soft skills like debating, drama, arts and speaching etc. i also learned multiple Tech tools like Scratch which is block-based visual programming language for game and story development",
+    degree: "Matric in Science(CS)",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "User Management System – React & JSON Server Project",
+    title: "User Management System",
     description:
       "Developed a user management web app with React and JSON Server, implementing full CRUD operations with real-time API integration. Built responsive layouts using Tailwind CSS and Bootstrap, with dynamic forms for user management, plus validation, error handling, and a clean UI/UX for seamless experience.",
     image: userManagementSystem,
@@ -177,7 +185,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: "RGB Color Mixer with Persistent Storage – React & Bootstrap",
+    title: "RGB Color Mixer with Persistent Storage",
     description:
       "Built an RGB Color Mixer app with React and Bootstrap featuring sliders and inputs for dynamic color adjustment with real-time preview. Added quick-set white/black, validation for inputs, and error handling. Integrated localStorage for persistent colors and designed a clean, responsive UI for better usability.",
     image: colorMixer,
@@ -186,7 +194,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "M Collection – HTML, CSS & JavaScript Project",
+    title: "M Collection Fashion E-Commerce Store",
     description:
       "Developed a responsive product collection web app with HTML, CSS, and vanilla JavaScript. Designed a mobile-friendly grid layout with hover animations. Integrated EmailJS for real-time email functionality, enabling user confirmations and admin notifications without a backend. Optimized for performance and seamless browsing.",
     image: mc,
@@ -195,7 +203,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Amazon Shopping – HTML, CSS & JavaScript Project",
+    title: "Amazon Shopping Clone",
     description:
       "Built an Amazon-style shopping cart app with HTML, CSS, and JavaScript. Implemented dynamic product listing, add-to-cart, quantity updates, and real-time price calculation via DOM manipulation. Used localStorage to persist cart data and designed a clean, responsive e-commerce layout with intuitive navigation.",
     image: amazon,
@@ -204,7 +212,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Calculator Web App – HTML, CSS & JavaScript Project",
+    title: "Calculator Web App ",
     description:
       "Created an interactive calculator web app using HTML, CSS, and JavaScript with a modern glassmorphism UI. Integrated real-time expression building, evaluation, and DOM manipulation. Added localStorage to save history across sessions, with clear/evaluate functions for smooth arithmetic operations and responsive design.",
     image: calculator,
@@ -213,7 +221,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Rock Paper Scissors Web Game – HTML, CSS & JavaScript",
+    title: "Rock Paper Scissors Web Game ",
     description:
       "Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript with an image-based UI. Added modular game logic, keyboard shortcuts (r, p, s), and auto-play mode. Implemented localStorage for persistent score tracking and responsive button animations, ensuring a fun and engaging experience",
     image: rps,
@@ -222,7 +230,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "To-Do List Web App – HTML, CSS & JavaScript Project",
+    title: "To-Do List Web App ",
     description:
       "Developed a fully functional To-Do List web app using HTML, CSS, and JavaScript. Implemented real-time task addition, deletion, and detail toggling via DOM manipulation. Integrated localStorage to persist tasks across sessions, with a responsive and visually appealing layout for improved usability and interaction.",
     image: toDo,
@@ -231,7 +239,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: "YouTube Interface Clone – HTML & CSS Web Development Project",
+    title: "YouTube Interface Clone ",
     description:
       "Created a responsive front-end clone of the YouTube homepage using HTML and CSS. Replicated core layout elements including header, video thumbnails, and sidebar navigation with modular CSS for clean structure. Designed a visually accurate, mobile-friendly interface to practice modern front-end development techniques.",
     image: yt,
@@ -240,7 +248,7 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Facebook Interface Clone – HTML & CSS Web Development Project",
+    title: "Facebook Interface Clone ",
     description:
       "Built a responsive front-end clone of the Facebook homepage using HTML and modular CSS. Replicated major layout components including header, sidebar, news feed, stories, and reels. Designed with clean, structured CSS to ensure scalability and responsiveness, closely mimicking the look and feel of the original platform.",
     image: fb,

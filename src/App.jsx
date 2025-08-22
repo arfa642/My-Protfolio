@@ -22,7 +22,7 @@ function App() {
         <Skills />
         <Experience />
         <Work />
-        <Education />
+        <Education />  
         <Contact />
         <Footer />
 
