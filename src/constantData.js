@@ -1,4 +1,4 @@
-import myPic from '../pics/myPic.jpg';
+import myPicCircle from '../pics/myPicCircle.png';
 import myLogo from '../pics/myLogo.png';
 import bss from '../pics/bss.png';
 import pgc from '../pics/pgc.png';
@@ -21,64 +21,64 @@ import yt from '../pics/yt.jpg';
 import userManagementSystem from '../pics/userManagementSystem.png';
 import colorMixer from '../pics/colorMixer.png';
 
-import corel from '../pics/corel.png';
-import logoMaker from '../pics/logoMaker.jpeg';
+import corel from '../pics/corel0.png';
+import logoMaker from '../pics/logoMaker.png';
 
-import cpp from '../pics/cpp.ico';
+import cpp from '../pics/cpp.png';
 import c from '../pics/c.png'
-import python from '../pics/python.ico';
+import python from '../pics/python.png';
 
 import html from '../pics/html.png';
 import css from '../pics/css.png';
 import tailwind from '../pics/tailwind.png';
-import bootstrap from '../pics/bootstrap.jpeg';
+import bootstrap from '../pics/bootstrap.png';
 import js from '../pics/js.ico';
 import react from '../pics/react.ico';
 
+import vercel from '../pics/vercel.png'
+import git from '../pics/git.png'
+import vsCode from '../pics/vsCode.png'
+
+
+
 export const skillsInfo = [
-  {
-    title: 'Graphic Design',
-    skills: [
-      { name: 'CorelDraw', logo: { corel } },
-      { name: 'logoMaker', logo: { logoMaker } }
-    ]
-  },
-  {
-    title: 'Programming',
-    skills: [
-      { name: 'C++', logo: { cpp } },
-      { name: 'C', logo: { c } },
-      { name: 'python', logo: { python } }
-    ]
-  },
-  {
-    title: 'Programming',
-    skills: [
-      { name: 'C++', logo: { cpp } },
-      { name: 'C', logo: { c } },
-      { name: 'python', logo: { python } }
-    ]
-  },
-  {
-    title: 'Programming',
-    skills: [
-      { name: 'C++', logo: { cpp } },
-      { name: 'C', logo: { c } },
-      { name: 'python', logo: { python } }
-    ]
-  },
   {
     title: 'Website Development',
     skills: [
-      { name: 'HTML', logo: { html } },
-      { name: 'CSS', logo: { css } },
-      { name: 'JavaScript', logo: { js } },
-      { name: 'Tailwind Css', logo: { tailwind } },
-      { name: 'BootStrap', logo: { bootstrap } },
-      { name: 'React Js', logo: { react } }
+      { name: 'HTML', logo: html },
+      { name: 'CSS', logo: css },
+      { name: 'JavaScript', logo: js },
+      { name: 'Tailwind Css', logo: tailwind },
+      { name: 'BootStrap', logo: bootstrap },
+      { name: 'React Js', logo: react }
+    ]
+  },
+  {
+    title: 'Programming',
+    skills: [
+      { name: 'C++', logo: cpp },
+      { name: 'C', logo: c },
+      { name: 'python', logo: python }
+    ]
+  },
+  {
+    title: 'Graphic Design',
+    skills: [
+      { name: 'CorelDraw', logo: corel },
+      { name: 'logoMaker', logo: logoMaker }
+    ]
+  },
+  {
+    title: 'Tools',
+    skills: [
+      { name: 'VS Code', logo: vsCode },
+      { name: 'git', logo: git },
+      { name: 'Git Hub', logo: github },
+      { name: 'Vercel', logo: vercel }
     ]
   }
 ];
+
 
 export const experiences = [
   {
@@ -225,27 +225,27 @@ export const projects = [
     title: "To-Do List Web App – HTML, CSS & JavaScript Project",
     description:
       "Developed a fully functional To-Do List web app using HTML, CSS, and JavaScript. Implemented real-time task addition, deletion, and detail toggling via DOM manipulation. Integrated localStorage to persist tasks across sessions, with a responsive and visually appealing layout for improved usability and interaction.",
-       image: toDo,
+    image: toDo,
     tags: ["HTML", "CSS", "JavaScript", "localStorage", "DOM Manipulation", "Responsive Design"],
-  github: "https://github.com/arfa642/To-Do-List-Web-App-HTML-CSS-JavaScript-Project"
+    github: "https://github.com/arfa642/To-Do-List-Web-App-HTML-CSS-JavaScript-Project"
   },
   {
     id: 7,
     title: "YouTube Interface Clone – HTML & CSS Web Development Project",
     description:
       "Created a responsive front-end clone of the YouTube homepage using HTML and CSS. Replicated core layout elements including header, video thumbnails, and sidebar navigation with modular CSS for clean structure. Designed a visually accurate, mobile-friendly interface to practice modern front-end development techniques.",
-      image: yt,
-   tags: ["HTML", "CSS", "Responsive Design", "Frontend Development", "UI Clone"],
- github: "https://github.com/arfa642/YouTube-Interface-Clone-HTML-CSS-Web-Development-Project"
+    image: yt,
+    tags: ["HTML", "CSS", "Responsive Design", "Frontend Development", "UI Clone"],
+    github: "https://github.com/arfa642/YouTube-Interface-Clone-HTML-CSS-Web-Development-Project"
   },
   {
     id: 8,
     title: "Facebook Interface Clone – HTML & CSS Web Development Project",
     description:
       "Built a responsive front-end clone of the Facebook homepage using HTML and modular CSS. Replicated major layout components including header, sidebar, news feed, stories, and reels. Designed with clean, structured CSS to ensure scalability and responsiveness, closely mimicking the look and feel of the original platform.",
-       image: fb,
-   tags: ["HTML", "CSS", "Responsive Design", "Frontend Development", "UI Clone"],
- github: "https://github.com/arfa642/Facebook-Interface-Clone-HTML-CSS-Web-Development-Project"
+    image: fb,
+    tags: ["HTML", "CSS", "Responsive Design", "Frontend Development", "UI Clone"],
+    github: "https://github.com/arfa642/Facebook-Interface-Clone-HTML-CSS-Web-Development-Project"
   },
 
 ];
