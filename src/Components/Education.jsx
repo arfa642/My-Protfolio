@@ -44,19 +44,23 @@ const Education = () => {
                   <img
                     src={institution.img}
                     alt={institution.school}
-                    className="w-full h-full object-cover"
+                    className="w-26 h-26 object-cover"
                   />
                 </div>
 
                 <div className="flex flex-col justify-between">
                   <div>
-                    <h3 className="text-xl sm:text-xl font-semibold text-white">
+                    <h3 className=" font-semibold text-white  "
+                    style={{fontSize:"15px"}}
+                    >
                       {institution.degree}
                     </h3>
-                    <h4 className="text-xl sm:text-sm text-white">
+                    <h4 className=" text-white"
+                    style={{fontSize:"20px"}}    >
                       {institution.school}
                     </h4>
-                    <h4 className="text-xl sm:text-sm text-white">
+                    <h4 className="text-xl sm:text-sm text-white"
+                    style={{fontSize:"10px"}}>
                       Grade: {institution.grade}
                     </h4>
                   </div>

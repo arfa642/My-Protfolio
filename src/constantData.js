@@ -1,11 +1,11 @@
-import myPicCircle from '../pics/myPicCircle.png';
-import myLogo from '../pics/myLogo.png';
+// import myPicCircle from '../pics/myPicCircle.png';
+// import myLogo from '../pics/myLogo.png';
 
 import bss from '../pics/bss2.png';
 import pgc from '../pics/pgc2.png';
 import gcu from '../pics/gcu2.png';
 
-import linkedin from '../pics/linkedin.png';
+// import linkedin from '../pics/linkedin.png';
 import github from '../pics/github.png';
 
 import Axcenders from '../pics/Axcenders.png';
