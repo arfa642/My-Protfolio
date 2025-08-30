@@ -17,7 +17,7 @@ import fb from '../pics/fb.jpg';
 import yt from '../pics/yt.jpg';
 import userManagementSystem from '../pics/userManagementSystem.png';
 import colorMixer from '../pics/colorMixer.png';
-import NetStream from '../pics/netStream.jpg'
+import NetStream from '../pics/NetStream.jpg'
 
 import corel from '../pics/corel0.png';
 import logoMaker from '../pics/logoMaker.png';
