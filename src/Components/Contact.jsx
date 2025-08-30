@@ -16,7 +16,6 @@ const Contact = () => {
         "template_kzt5i31",
         form.current,
         "jJ1rzCqOlBmPQMhE-"
-
       )
       .then(
         () => {

@@ -1,11 +1,7 @@
-// import myPicCircle from '../pics/myPicCircle.png';
-// import myLogo from '../pics/myLogo.png';
-
 import bss from '../pics/bss2.png';
 import pgc from '../pics/pgc2.png';
 import gcu from '../pics/gcu2.png';
 
-// import linkedin from '../pics/linkedin.png';
 import github from '../pics/github.png';
 
 import Axcenders from '../pics/Axcenders.png';
@@ -24,12 +20,12 @@ import colorMixer from '../pics/colorMixer.png';
 
 import corel from '../pics/corel0.png';
 import logoMaker from '../pics/logoMaker.png';
-import canva from '../pics/canva.png'
+import canva from '../pics/canva.png';
 
 import cpp from '../pics/cpp.png';
-import c from '../pics/c.png'
+import c from '../pics/c.png';
 import python from '../pics/python.png';
-import scratch from '../pics/scratch.png'
+import scratch from '../pics/scratch.png';
 
 import html from '../pics/html.png';
 import css from '../pics/css.png';
@@ -37,15 +33,12 @@ import tailwind from '../pics/tailwind.png';
 import bootstrap from '../pics/bootstrap.png';
 import js from '../pics/js.ico';
 import react from '../pics/react.ico';
+import firebase from '../pics/fireBase.png';
 
-import vercel from '../pics/vercel.png'
-import git from '../pics/git.png'
-import vsCode from '../pics/vsCode.png'
+import vercel from '../pics/vercel.png';
+import git from '../pics/git.png';
+import vsCode from '../pics/vsCode.png';
 import emailJSImg from "../pics/EmailJs.jpg";
-
-
-
-
 
 export const skillsInfo = [
   {
@@ -54,18 +47,18 @@ export const skillsInfo = [
       { name: 'HTML', logo: html },
       { name: 'CSS', logo: css },
       { name: 'JavaScript', logo: js },
-      { name: 'Tailwind Css', logo: tailwind },
-      { name: 'BootStrap', logo: bootstrap },
-      { name: 'React Js', logo: react }
+      { name: 'Tailwind CSS', logo: tailwind },
+      { name: 'Bootstrap', logo: bootstrap },
+      { name: 'React JS', logo: react }
     ]
   },
   {
     title: 'Programming',
     skills: [
       { name: 'C++', logo: cpp },
-       { name: 'JavaScript', logo: js },
+      { name: 'JavaScript', logo: js },
       { name: 'C', logo: c },
-      { name: 'python', logo: python },
+      { name: 'Python', logo: python },
       { name: 'Scratch', logo: scratch }
     ]
   },
@@ -73,7 +66,7 @@ export const skillsInfo = [
     title: 'Graphic Design',
     skills: [
       { name: 'CorelDraw', logo: corel },
-      { name: 'logoMaker', logo: logoMaker },
+      { name: 'LogoMaker', logo: logoMaker },
       { name: 'Canva', logo: canva },
     ]
   },
@@ -81,22 +74,20 @@ export const skillsInfo = [
     title: 'Tools',
     skills: [
       { name: 'VS Code', logo: vsCode },
-      { name: 'git', logo: git },
-      { name: 'Git Hub', logo: github },
+      { name: 'Git', logo: git },
+      { name: 'GitHub', logo: github },
       { name: 'Vercel', logo: vercel },
-       { name: 'Scratch', logo: scratch },
-       { name: 'Email JS', logo:  emailJSImg
- },
+      { name: 'Firebase', logo: firebase },
+      { name: 'Email JS', logo: emailJSImg },
     ]
   }
 ];
-
 
 export const experiences = [
   {
     id: 0,
     img: Axcenders,
-    role: 'Co-founder ',
+    role: 'Co-founder',
     company: 'Axcend',
     date: 'June 2025 - Present',
     desc: 'I co-founded Axcend, a modern web development startup, alongside two other passionate developers. As the Frontend Developer, I focus on building fast, responsive, and visually engaging web applications using the latest technologies. Along with coding, I also contribute to product design ideas, client collaboration, and shaping the startup’s growth journey.',
@@ -104,9 +95,9 @@ export const experiences = [
       'HTML',
       'CSS',
       'JavaScript',
-      'Tailwind Css ',
-      'BootStrap',
-      'React Js'
+      'Tailwind CSS',
+      'Bootstrap',
+      'React JS'
     ]
   },
   {
@@ -143,9 +134,9 @@ export const experiences = [
       'Business Card Design',
       'Visual Consistency'
     ]
-
   },
 ];
+
 export const education = [
   {
     id: 0,
@@ -153,7 +144,7 @@ export const education = [
     school: "GC University Lahore",
     date: "Sept 2024 - Present",
     grade: "3.3 CGPA",
-    desc: "I am Currently doing my Bachelor's degree (BSCS) in Computer Science from GC University, Lahore. During my time at GCU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as, Applications of Information Technology, Programming Fundamentals ,Object-Oriented Programming and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GC University has been instrumental in shaping my technical abilities and professional growth.",
+    desc: "I am currently pursuing my Bachelor's degree (BSCS) in Computer Science from GC University, Lahore. During my time at GCU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Applications of Information Technology, Programming Fundamentals, Object-Oriented Programming, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GC University has been instrumental in shaping my technical abilities and professional growth.",
     degree: "Bachelor's of Computer Science",
   },
   {
@@ -162,7 +153,7 @@ export const education = [
     school: "Punjab Group of Colleges",
     date: "Sept 2022 - May 2024",
     grade: "78%",
-    desc: "I completed Intermediate in Computer Science from Punjab Group of Colleges, Lahore, under the BISE board, where I studied Statistics, Mathematics and Computer Science.",
+    desc: "I completed Intermediate in Computer Science from Punjab Group of Colleges, Lahore, under the BISE board, where I studied Statistics, Mathematics, and Computer Science.",
     degree: "Intermediate in Computer Science",
   },
   {
@@ -171,12 +162,21 @@ export const education = [
     school: "Beaconhouse School System",
     date: "Aug 2009 - May 2022",
     grade: "83%",
-    desc: "I completed my class 10 education from Beaconhouse School System under the BISE board, where I studied Physics Chemistry Mathematics and Computer Science where i built multiple soft skills like debating, drama, arts and speaching etc. i also learned multiple Tech tools like Scratch which is block-based visual programming language for game and story development",
-    degree: "Matric in Science(CS)",
+    desc: "I completed my class 10 education from Beaconhouse School System under the BISE board, where I studied Physics, Chemistry, Mathematics, and Computer Science. I also developed multiple soft skills like debating, drama, arts, and public speaking, and learned tech tools like Scratch, a block-based visual programming language for game and story development.",
+    degree: "Matric in Science (CS)",
   },
 ];
 
 export const projects = [
+  {
+    id: 9,
+    title: "NetStream (Netflix Clone)",
+    description:
+      "Developed a feature-rich streaming platform inspired by Netflix using React (with Vite) and Firebase, implementing secure authentication, real-time video streaming with YouTube embedding, and dynamic search across movies and TV shows. Built responsive layouts with TailwindCSS, interactive Netflix-style UI components, and integrated TMDB API for fetching movie and TV show data, ensuring a modern, production-ready experience across mobile, tablet, and desktop devices.",
+    image: userManagementSystem,
+    tags: ["React", "Vite", "Firebase", "Tailwind CSS", "React Router DOM", "TMDB API", "Authentication", "Video Streaming", "Responsive Design", "UI/UX"],
+    github: "https://github.com/arfa642/NetStream-Netflix-Clone-",
+  },
   {
     id: 0,
     title: "User Management System",
@@ -215,7 +215,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Calculator Web App ",
+    title: "Calculator Web App",
     description:
       "Created an interactive calculator web app using HTML, CSS, and JavaScript with a modern glassmorphism UI. Integrated real-time expression building, evaluation, and DOM manipulation. Added localStorage to save history across sessions, with clear/evaluate functions for smooth arithmetic operations and responsive design.",
     image: calculator,
@@ -224,7 +224,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Rock Paper Scissors Web Game ",
+    title: "Rock Paper Scissors Web Game",
     description:
       "Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript with an image-based UI. Added modular game logic, keyboard shortcuts (r, p, s), and auto-play mode. Implemented localStorage for persistent score tracking and responsive button animations, ensuring a fun and engaging experience",
     image: rps,
@@ -233,7 +233,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "To-Do List Web App ",
+    title: "To-Do List Web App",
     description:
       "Developed a fully functional To-Do List web app using HTML, CSS, and JavaScript. Implemented real-time task addition, deletion, and detail toggling via DOM manipulation. Integrated localStorage to persist tasks across sessions, with a responsive and visually appealing layout for improved usability and interaction.",
     image: toDo,
@@ -242,7 +242,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: "YouTube Interface Clone ",
+    title: "YouTube Interface Clone",
     description:
       "Created a responsive front-end clone of the YouTube homepage using HTML and CSS. Replicated core layout elements including header, video thumbnails, and sidebar navigation with modular CSS for clean structure. Designed a visually accurate, mobile-friendly interface to practice modern front-end development techniques.",
     image: yt,
@@ -251,14 +251,11 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Facebook Interface Clone ",
+    title: "Facebook Interface Clone",
     description:
       "Built a responsive front-end clone of the Facebook homepage using HTML and modular CSS. Replicated major layout components including header, sidebar, news feed, stories, and reels. Designed with clean, structured CSS to ensure scalability and responsiveness, closely mimicking the look and feel of the original platform.",
     image: fb,
     tags: ["HTML", "CSS", "Responsive Design", "Frontend Development", "UI Clone"],
     github: "https://github.com/arfa642/Facebook-Interface-Clone-HTML-CSS-Web-Development-Project"
   },
-
 ];
-
-
