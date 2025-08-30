@@ -17,6 +17,7 @@ import fb from '../pics/fb.jpg';
 import yt from '../pics/yt.jpg';
 import userManagementSystem from '../pics/userManagementSystem.png';
 import colorMixer from '../pics/colorMixer.png';
+import NetStream from '../pics/netStream.jpg'
 
 import corel from '../pics/corel0.png';
 import logoMaker from '../pics/logoMaker.png';
@@ -173,7 +174,7 @@ export const projects = [
     title: "NetStream (Netflix Clone)",
     description:
       "Developed a feature-rich streaming platform inspired by Netflix using React (with Vite) and Firebase, implementing secure authentication, real-time video streaming with YouTube embedding, and dynamic search across movies and TV shows. Built responsive layouts with TailwindCSS, interactive Netflix-style UI components, and integrated TMDB API for fetching movie and TV show data, ensuring a modern, production-ready experience across mobile, tablet, and desktop devices.",
-    image: userManagementSystem,
+    image: NetStream,
     tags: ["React", "Vite", "Firebase", "Tailwind CSS", "React Router DOM", "TMDB API", "Authentication", "Video Streaming", "Responsive Design", "UI/UX"],
     github: "https://github.com/arfa642/NetStream-Netflix-Clone-",
   },
