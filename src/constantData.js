@@ -215,15 +215,6 @@ export const projects = [
     github: "https://github.com/arfa642/Amazon-Shopping-Clone-HTML-CSS-JavaScript-Project"
   },
   {
-    id: 4,
-    title: "Calculator Web App",
-    description:
-      "Created an interactive calculator web app using HTML, CSS, and JavaScript with a modern glassmorphism UI. Integrated real-time expression building, evaluation, and DOM manipulation. Added localStorage to save history across sessions, with clear/evaluate functions for smooth arithmetic operations and responsive design.",
-    image: calculator,
-    tags: ["HTML", "CSS", "JavaScript", "localStorage", "DOM Manipulation", "Responsive Design"],
-    github: "https://github.com/arfa642/Calculator-Web-App-HTML-CSS-JavaScript-Project"
-  },
-  {
     id: 5,
     title: "Rock Paper Scissors Web Game",
     description:
