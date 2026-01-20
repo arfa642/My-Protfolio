@@ -34,8 +34,9 @@ import tailwind from '../pics/tailwind.png';
 import bootstrap from '../pics/bootstrap.png';
 import js from '../pics/js.ico';
 import react from '../pics/react.ico';
-import firebase from '../pics/fireBase.png';
+import sql from '../pics/sql.png'
 
+import firebase from '../pics/fireBase.png';
 import vercel from '../pics/vercel.png';
 import git from '../pics/git.png';
 import vsCode from '../pics/vsCode.png';
