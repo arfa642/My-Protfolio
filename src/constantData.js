@@ -40,6 +40,7 @@ import vercel from '../pics/vercel.png';
 import git from '../pics/git.png';
 import vsCode from '../pics/vsCode.png';
 import emailJSImg from "../pics/EmailJs.jpg";
+import MicrosoftSQLServer from "../pics/Microsoft SQL Server.png";
 
 export const skillsInfo = [
   {
@@ -80,6 +81,8 @@ export const skillsInfo = [
       { name: 'Vercel', logo: vercel },
       { name: 'Firebase', logo: firebase },
       { name: 'Email JS', logo: emailJSImg },
+      { name: 'Microsoft SQL Server', logo: MicrosoftSQLServer},
+      
     ]
   }
 ];
