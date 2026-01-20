@@ -62,7 +62,8 @@ export const skillsInfo = [
       { name: 'JavaScript', logo: js },
       { name: 'C', logo: c },
       { name: 'Python', logo: python },
-      { name: 'Scratch', logo: scratch }
+      { name: 'Scratch', logo: scratch },
+      { name: 'SQL', logo: sql },
     ]
   },
   {
